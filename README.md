@@ -36,6 +36,13 @@ Splits an SKUA-GOCAD Ascii file with multiple TSurf objects (surfaces) inside in
 python3 Split_GOCAD_TSurfs.py <InputFile.ts>
 ``` 
 
+**Split_SURPAC_DTMs.py**
+
+Splits a single part SURPAC DTM file to multipart file, each object separated by a different object ID.
+
+```
+python3 Split_SURPAC_DTM.py <input DTM> <output DTM>
+```
 ## Built With
 
 * [Python 2 and Python 3](http://www.python.org/)
